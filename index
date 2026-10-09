@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dhyan N - Computer Science Student Resume">
+  <title>Dhyan N - Resume</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 30px 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #111;
+      background: #fff;
+    }
+
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      padding: 25px 35px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 24pt;
+      margin: 0 0 5px;
+    }
+
+    .headline {
+      font-weight: bold;
+      margin: 4px 0;
+    }
+
+    .contact {
+      font-size: 9.5pt;
+      overflow-wrap: anywhere;
+    }
+
+    section {
+      margin-top: 17px;
+    }
+
+    h2 {
+      font-size: 12pt;
+      border-bottom: 1px solid #333;
+      padding-bottom: 4px;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 4px 0;
+    }
+
+    ul {
+      margin: 5px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    .item-title {
+      font-weight: bold;
+    }
+
+    .muted {
+      margin-top: 2px;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        font-size: 10pt;
+      }
+
+      .resume {
+        max-width: none;
+        padding: 0;
+      }
+
+      .download {
+        display: none;
+      }
+
+      section {
+        break-inside: avoid;
+      }
+
+      @page {
+        size: A4;
+        margin: 15mm;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .resume {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+
+  <main class="resume">
+    <header>
+      <h1>Dhyan N</h1>
+
+      <p class="headline">
+        Computer Science Student | Cloud Computing
+        &amp; Software Development
+      </p>
+
+      <p class="contact">
+        Email: [Your Email] |
+        Phone: [Your Phone] |
+        Location: [Your City]
+      </p>
+
+      <p class="contact">
+        LinkedIn: [Your LinkedIn URL] |
+        GitHub: [Your GitHub URL]
+      </p>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Computer Science student at Amrita Vishwa Vidyapeetham
+        with foundational knowledge of cloud computing, web
+        technologies, and software development. Familiar with
+        AWS, Google Cloud, HTML, CSS, Java, JavaScript, and React.
+        Interested in cloud infrastructure, automation, data
+        analysis, and application development. Seeking internship
+        opportunities to apply technical skills through practical
+        projects and develop engineering experience.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <p><strong>Cloud:</strong> AWS, Google Cloud, Cloud Architecture</p>
+      <p><strong>Programming:</strong> Java, JavaScript</p>
+      <p><strong>Web Technologies:</strong> HTML, CSS, React</p>
+      <p><strong>Tools:</strong> Git, GitHub</p>
+      <p><strong>Other:</strong> Data Analysis, UI/UX Design</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <p class="item-title">Mood Music Website</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+      <ul>
+        <li>
+          Worked on a web project concept focused on music
+          discovery based on user mood.
+        </li>
+        <li>
+          Planned mood selection and music recommendation
+          functionality with a simple user interface.
+        </li>
+        <li>
+          Project URL:
+          [Add your live project or GitHub repository URL]
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+
+      <p class="item-title">
+        Bachelor of Science in Computer Science
+      </p>
+
+      <p>Amrita Vishwa Vidyapeetham</p>
+      <p>Expected Graduation: May 2027</p>
+    </section>
+
+    <section>
+      <h2>Career Interests</h2>
+      <p>
+        Cloud Computing Intern, Software Development Intern,
+        Web Development Intern, and related entry-level roles.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
